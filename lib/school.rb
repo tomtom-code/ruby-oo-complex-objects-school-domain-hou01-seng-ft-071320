@@ -23,6 +23,7 @@ class School
       @roster[@grade].push(@name)
     else
       @roaster[@grade] = [name]
+    end 
 
 
 
