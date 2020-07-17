@@ -42,9 +42,11 @@ class School
     sorted_list = {}
     @roster.each do |k, v|
       sorted_list[k] = v.sort
+      binding.pry
 
 
     end
+    sorted_list
 
 
 
