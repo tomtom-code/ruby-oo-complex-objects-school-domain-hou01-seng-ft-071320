@@ -22,7 +22,7 @@ class School
     if @roster.key?(@grade)
       @roster[@grade].push(@name)
     else
-      @roaster[@grade] = [name]
+      @roaster[@grade] = [@name]
     end
 
 
