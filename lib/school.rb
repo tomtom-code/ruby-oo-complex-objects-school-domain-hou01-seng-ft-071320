@@ -38,10 +38,13 @@ class School
 
   end
 
-  def sort()
+  def sort
     sorted_lsit = {}
-    @roster.each {|grade, students|}
-    binding.pry
+    @roster.each do |k, v|
+      binding.pry
+
+    end
+
 
 
 
