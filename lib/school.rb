@@ -21,7 +21,8 @@ class School
       @roster[@grade] << @name
     else
       @roster[@grade] = [name]
-      
+
+
     end
   end
 
@@ -31,10 +32,13 @@ class School
 
   def grade(grade)
     @roster[grade]
+    binding.pry
 
   end
 
   def sort
+
+
 
   end
 
