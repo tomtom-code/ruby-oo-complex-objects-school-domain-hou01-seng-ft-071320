@@ -40,7 +40,7 @@ class School
 
   def sort()
     sorted_lsit = {}
-    @roster.each {|@grade, @name|}
+    @roster.each {|grade, students|}
     binding.pry
 
 
