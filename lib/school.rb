@@ -41,7 +41,7 @@ class School
   def sort
     sorted_lsit = {}
     @roster.each do |k, v|
-      binding.pry
+      
 
     end
 
