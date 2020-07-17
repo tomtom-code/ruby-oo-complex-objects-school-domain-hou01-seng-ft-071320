@@ -13,22 +13,16 @@ class School
     @roster
   end
 
+
   def add_student(name, grade)
-    #@name = name
+    @name = name
     @grade = grade
-
-    @roster[@grade] = []
-
-     if @roster.key?(@grade)
-     @roster[@grade].push(@name)
-     else
-     @roaster[@grade] = [@name]
-     end
-   end
-
-
-
-
+    if @roster.key?(@grade)
+      @roster[@grade] << @name
+    else
+      @roster[@grade] = [name]
+    end
+  end
 
 
 
