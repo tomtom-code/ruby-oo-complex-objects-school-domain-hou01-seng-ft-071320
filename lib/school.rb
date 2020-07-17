@@ -43,8 +43,6 @@ class School
     @roster.each do |k, v|
       sorted_list[k] = v.sort
 
-      binding.pry
-
     end
 
 
