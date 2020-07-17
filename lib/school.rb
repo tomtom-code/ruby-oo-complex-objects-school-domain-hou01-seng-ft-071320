@@ -39,10 +39,10 @@ class School
   end
 
   def sort
-    sorted_lsit = {}
+    sorted_list = {}
     @roster.each do |k, v|
       sorted_list[k] = v.sort
-      binding.pry
+
 
     end
 
