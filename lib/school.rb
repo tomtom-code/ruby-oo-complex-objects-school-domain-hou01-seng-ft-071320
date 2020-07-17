@@ -21,6 +21,7 @@ class School
       @roster[@grade] << @name
     else
       @roster[@grade] = [name]
+      binding.pry
     end
   end
 
