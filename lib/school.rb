@@ -41,6 +41,7 @@ class School
   def sort()
     sorted_lsit = {}
     @roster.each {|grade, name|}
+    binding.pry
 
 
 
