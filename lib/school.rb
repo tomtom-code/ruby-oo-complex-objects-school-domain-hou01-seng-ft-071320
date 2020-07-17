@@ -18,8 +18,13 @@ class School
     @grade = grade
 
     @roster[@grade] = []
-    @roster[@grade].push(@name)
-    @roster[@grade] = [name]
+
+    if @roster.key?(@grade)
+      @roster[@grade].push(@name)
+    else
+      @roaster[@grade] = name
+
+
 
 
 
