@@ -33,11 +33,15 @@ class School
 
   def grade(grade)
     @roster[grade]
+    binding.pry
 
 
   end
 
-  def sort
+  def sort()
+    sorted_lsit = {}
+
+
 
 
 
