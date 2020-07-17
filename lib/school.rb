@@ -41,7 +41,7 @@ class School
   def sort
     sorted_lsit = {}
     @roster.each do |k, v|
-      
+      sorted_list[k] = v.sort
 
     end
 
